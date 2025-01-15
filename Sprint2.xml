@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sprint 2">
+    <parameter name="browsername" value=""></parameter>
+
+    <test name="Select Categories">
+        <classes>
+            <class name="testcases.HomePage_Base">
+
+                <methods>
+                    <include name="verifyHoverRandomCategory_P"/>
+
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+
+
+    <test name="Add Products To Cart">
+        <classes>
+            <class name="testcases.HomePage_Base">
+
+                <methods>
+                    <include name="AddProductToCart_P"/>
+
+                </methods>
+            </class>
+
+        </classes>
+
+
+    </test>
+
+    <test name="Wishlist">
+        <classes>
+            <class name="testcases.HomePage_Base">
+
+                <methods>
+                    <include name="AddToWishlist_P"/>
+
+                </methods>
+            </class>
+
+        </classes>
+
+
+    </test>
+    <test name="Comparelist">
+        <classes>
+            <class name="testcases.HomePage_Base">
+
+                <methods>
+                    <include name="AddtiontoComparelist"/>
+
+                </methods>
+            </class>
+
+        </classes>
+
+
+    </test>
+
+
+    <test name="Checkout">
+        <classes>
+            <class name="testcases.HomePage_Base">
+
+                <methods>
+                    <include name="Checkout_P"/>
+
+                </methods>
+            </class>
+
+        </classes>
+
+
+    </test>
+
+</suite>

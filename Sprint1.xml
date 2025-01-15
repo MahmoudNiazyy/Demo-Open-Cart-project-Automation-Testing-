@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SPRINT-1-TESTCASES">
+    <parameter name="browsername" value=""></parameter>
+
+    <test name="Register With Valid Data">
+
+        <classes>
+            <class name="testcases.TC02_Register">
+
+                <methods>
+                    <include name="RegisterWithValidData_P"/>
+
+                </methods>
+            </class>
+
+        </classes>
+
+
+    </test>
+
+    <test name="Login With Valid Data">
+        <classes>
+            <class name="testcases.TC01_Login">
+
+                <methods>
+                    <include name="LoginWithValidData_P"/>
+
+                </methods>
+            </class>
+
+        </classes>
+
+
+    </test>
+    <test name="ResetPass">
+        <classes>
+            <class name="testcases.TC03_ForgetPass">
+
+                <methods>
+                    <include name="ForgetPass_P"/>
+
+                </methods>
+            </class>
+
+        </classes>
+
+
+    </test>
+
+    <test name="SearchProduct">
+        <classes>
+            <class name="testcases.HomePage_Base">
+
+                <methods>
+                    <include name="SearchProduct_P"/>
+
+                </methods>
+            </class>
+
+        </classes>
+
+
+    </test>
+
+    <test name="Change Currency">
+        <classes>
+            <class name="testcases.HomePage_Base">
+
+                <methods>
+                    <include name="ChangeCurrency_P"/>
+
+                </methods>
+            </class>
+
+        </classes>
+
+
+    </test>
+
+</suite>
